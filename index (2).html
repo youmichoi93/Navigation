@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Blake's Navigation</title>
+    <script src="js/jquery-1.12.4.js"></script>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container">
+      <header>
+        <div class="navi">
+          <div class="lnb">
+            <a href="#"><img src="images/logo.png" alt="logo"></a>
+            <span class="trigger">
+              <i class="fa fa-bars"></i> Sitemap </span>
+          </div>
+          <div class="gnb">
+            <a href="#city1">Seoul</a>
+            <a href="#city2">Istanbul</a>
+            <a href="#city3">Sicily</a>
+            <a href="#city4">Paris</a>
+          </div>
+        </div>
+       </header>
+       <section class="welcome">
+         <div class="welcome-inner">
+           <div class="heading">
+             <h1>The World’s 4 Best Cities</h1>
+             <P>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum perspiciatis rerum eos sunt quia voluptates, ducimus molestiae iure asperiores dicta dolor aperiam eius? Quam tenetur modi maiores quas! Temporibus, officia.
+             </P>
+           </div>
+         </div>
+       </section>
+       <section id="city1">
+         <div class="section-inner">
+           <h1>Seoul <span>in Korea</span></h1>
+           <div class="image-frame">
+             <img src="images/photo-seoul.jpg" alt="">
+           </div>
+           <p>
+             <span>Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Sint voluptate reprehenderit ad necessitatibus officiis molestiae assumenda doloremque odio ipsa eligendi, id consequatur adipisci consequuntur repudiandae tenetur. Molestiae nemo vitae quaerat.
+           </p>
+         </div>
+       </section>
+       <section id="city2">
+         <div class="section-inner">
+           <h1>Istanbul <span>in Turkey</span></h1>
+           <div class="image-frame">
+             <img src="images/photo-istanbul.jpg" alt="">
+           </div>
+           <p>
+             <span>Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Sint voluptate reprehenderit ad necessitatibus officiis molestiae assumenda doloremque odio ipsa eligendi, id consequatur adipisci consequuntur repudiandae tenetur. Molestiae nemo vitae quaerat.
+           </p>
+         </div>
+       </section>
+       <section id="city3">
+         <div class="section-inner">
+           <h1>Sicily <span>in Italy</span></h1>
+           <div class="image-frame">
+             <img src="images/photo-sicily.jpg" alt="">
+           </div>
+           <p>
+             <span>Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Sint voluptate reprehenderit ad necessitatibus officiis molestiae assumenda doloremque odio ipsa eligendi, id consequatur adipisci consequuntur repudiandae tenetur. Molestiae nemo vitae quaerat.
+           </p>
+         </div>
+       </section>
+       <section id="city4">
+         <div class="section-inner">
+           <h1>Paris <span>in Frence</span></h1>
+           <div class="image-frame">
+             <img src="images/photo-paris.jpg" alt="">
+           </div>
+           <p>
+             <span>Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Sint voluptate reprehenderit ad necessitatibus officiis molestiae assumenda doloremque odio ipsa eligendi, id consequatur adipisci consequuntur repudiandae tenetur. Molestiae nemo vitae quaerat.
+           </p>
+         </div>
+       </section>
+       <footer>
+         <div class="footer-inner">
+           <div>
+             <b>Community</b>
+             <a href="#none">Help Translate</a>
+             <a href="#none">Submit</a>
+             <a href="#none">Join</a>
+             <a href="#none">CLA</a>
+           </div>
+           <div>
+             <b>Help Preserver This Project</b>
+             <p>
+               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id animi iure culpa vero consectetur nemo aliquid vitae est ducimus error. Dolor quisquam possimus perspiciatis earum deserunt vitae, provident in nisi.
+             </p>
+             <button class="btn-donate">Donate Today</button>
+           </div>
+         </div>
+       </footer>
+    </div>
+    <!-- Go to top -->
+    <a href="#" class="gototop"><i class="fa fa-angle-up"></i></a>
+
+    <script>
+    // Change CSS with Scroll
+    $(window).scroll(function() {
+      if($(window).scrollTop() > 50) {
+        $('header, .gototop').addClass('active')
+      }
+      else {
+        $('header, .gototop').removeClass('active')
+      }
+    })
+    </script>
+    
+  </body>
+</html>
